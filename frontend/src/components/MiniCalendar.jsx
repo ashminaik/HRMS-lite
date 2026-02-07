@@ -68,6 +68,9 @@ const MiniCalendar = ({ selectedDate, setSelectedDate }) => {
 
   return (
     <div className="rounded-2xl bg-white p-4 shadow-soft">
+      {/* Filter label */}
+      <h3 className="mb-4 text-sm font-semibold text-ink">Filter by: Date</h3>
+      
       {/* Header with arrows and pink pill */}
       <div className="mb-4 flex items-center justify-between">
         <button

@@ -10,9 +10,9 @@ const Sidebar = () => {
   return (
     <aside className="fixed left-2 top-4 bottom-4 w-36 rounded-2xl bg-[#111827] px-3 py-6 text-white shadow-soft flex flex-col">
       <div className="mb-8 text-center">
-        <h1 className="text-xl font-extrabold tracking-wide leading-tight">HRMS</h1>
-        <h1 className="text-xl font-extrabold tracking-wide leading-tight">Lite</h1>
-        <p className="text-xs text-white/70 mt-1">Admin Panel</p>
+        <h1 className="text-3xl font-black tracking-wide leading-none">HRMS</h1>
+        <h1 className="text-3xl font-black tracking-wide leading-none">Lite</h1>
+        <p className="text-base font-bold text-white mt-2">Admin Panel</p>
       </div>
 
       <nav className="space-y-2">

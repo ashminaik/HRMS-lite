@@ -433,6 +433,7 @@ const App = () => {
               <FilterPanel
                 departments={departments}
                 roles={roles}
+                employees={employees}
                 selectedDepartment={selectedDepartment}
                 setSelectedDepartment={setSelectedDepartment}
                 selectedRole={selectedRole}
