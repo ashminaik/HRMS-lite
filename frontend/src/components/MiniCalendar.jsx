@@ -129,9 +129,9 @@ const MiniCalendar = ({ selectedDate, setSelectedDate }) => {
                       day.inMonth ? "text-ink hover:bg-cream" : "text-slate/20"
                     } ${
                       selected
-                        ? "bg-[#F5B8DB] text-ink shadow-sm"
+                        ? "bg-pastel-pink text-ink shadow-sm"
                         : isToday && day.inMonth
-                        ? "ring-2 ring-[#F5B8DB] ring-inset"
+                        ? "ring-2 ring-pastel-pink ring-inset"
                         : ""
                     }`}
                   >

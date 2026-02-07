@@ -313,7 +313,7 @@ const QuickAttendance = ({ employees, onMarkAttendance, selectedDate: mainSelect
 
       {/* Success Message */}
       {success && (
-        <p className="text-[10px] text-[#9AAB63] font-medium mt-2 px-1">{success}</p>
+        <p className="text-[10px] text-pastel-green font-medium mt-2 px-1">{success}</p>
       )}
     </div>
   );

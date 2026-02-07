@@ -14,6 +14,7 @@ const employeeSchema = new mongoose.Schema(
     },
     department: { type: String, required: true, trim: true },
     role: { type: String, required: true, trim: true },
+    gender: { type: String, enum: ["Male", "Female", "Other"], default: "Male" },
   },
   { timestamps: true }
 );

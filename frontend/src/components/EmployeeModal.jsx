@@ -526,7 +526,7 @@ const EmployeeModal = ({ isOpen, onClose, onSave, employee, saving, existingDepa
 
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/30 px-4">
-      <div className="w-full max-w-xl rounded-2xl bg-cream border-4 border-[#B6CAEB] p-8 shadow-soft relative">
+      <div className="w-full max-w-xl rounded-2xl bg-cream border-4 border-pastel-blue p-8 shadow-soft relative">
         <button
           type="button"
           className="absolute top-4 right-4 p-1 rounded-full hover:bg-gray-200 transition"

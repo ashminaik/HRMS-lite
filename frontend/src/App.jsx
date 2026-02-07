@@ -331,7 +331,7 @@ const App = () => {
                     {unmarkedEmployees.length} employee(s) have not been marked for attendance today. Please mark their status.
                   </p>
                 ) : employees.length > 0 ? (
-                  <p className="text-sm font-medium text-[#9AAB63]">
+                  <p className="text-sm font-medium text-pastel-green">
                     All {employees.length} employees have been marked.
                   </p>
                 ) : null}
@@ -347,7 +347,7 @@ const App = () => {
                     <span className="text-xs font-semibold text-slate">Mark All:</span>
                     <button
                       type="button"
-                      className="rounded-full bg-[#9AAB63] px-4 py-1.5 text-xs font-semibold text-white shadow-soft transition hover:opacity-90"
+                      className="rounded-full bg-pastel-green px-4 py-1.5 text-xs font-semibold text-white shadow-soft transition hover:opacity-90"
                       onClick={() => handleMarkAll("Present")}
                     >
                       Present
@@ -361,7 +361,7 @@ const App = () => {
                     </button>
                     <button
                       type="button"
-                      className="rounded-full bg-[#F5D867] px-4 py-1.5 text-xs font-semibold text-white shadow-soft transition hover:opacity-90"
+                      className="rounded-full bg-pastel-yellow px-4 py-1.5 text-xs font-semibold text-white shadow-soft transition hover:opacity-90"
                       onClick={() => handleMarkAll("On Leave")}
                     >
                       On Leave

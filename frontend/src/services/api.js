@@ -1,7 +1,11 @@
-const apiBase = (import.meta.env.VITE_API_URL || "http://localhost:5000").replace(
+const apiBase = (import.meta.env.VITE_API_URL || "http://localhost:5050").replace(
   /\/$/,
   ""
 );
+
+// Fetch attendance for an employee by date range
+export const fetchAttendanceByEmployee = (employeeId, startDate, endDate) =>
+  request(`/api/attendance/${employeeId}?start=${encodeURIComponent(startDate.toISOString())}&end=${encodeURIComponent(endDate.toISOString())}`);
 
 const request = async (path, options = {}) => {
   const response = await fetch(`${apiBase}${path}`, {
@@ -60,3 +64,6 @@ export const markAttendance = (payload) =>
 
 export const fetchSummary = (date) =>
   request(`/api/attendance/summary?date=${encodeURIComponent(date)}`);
+
+export const fetchStatistics = () =>
+  request("/api/attendance/statistics");
