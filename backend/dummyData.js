@@ -1,0 +1,33 @@
+const employees = [
+  { employeeId: "EMP001", fullName: "Ananya Rao", email: "ananya.rao@gmail.com", department: "HR", role: "Recruiter" },
+  { employeeId: "EMP002", fullName: "Rohit Kulkarni", email: "rohit.kulkarni@gmail.com", department: "HR", role: "Payroll Executive" },
+  { employeeId: "EMP003", fullName: "Amit Verma", email: "amit.verma@gmail.com", department: "IT", role: "IT Manager" },
+  { employeeId: "EMP004", fullName: "Sneha Patil", email: "sneha.patil@gmail.com", department: "IT", role: "Frontend Developer" },
+  { employeeId: "EMP005", fullName: "Kunal Shah", email: "kunal.shah@gmail.com", department: "IT", role: "Frontend Developer" },
+  { employeeId: "EMP006", fullName: "Ishita Mehra", email: "ishita.mehra@gmail.com", department: "IT", role: "Frontend Developer" },
+  { employeeId: "EMP007", fullName: "Rahul Nair", email: "rahul.nair@gmail.com", department: "IT", role: "Backend Developer" },
+  { employeeId: "EMP008", fullName: "Neha Joshi", email: "neha.joshi@gmail.com", department: "IT", role: "Backend Developer" },
+  { employeeId: "EMP009", fullName: "Aditya Malhotra", email: "aditya.malhotra@gmail.com", department: "IT", role: "Backend Developer" },
+  { employeeId: "EMP010", fullName: "Priya Iyer", email: "priya.iyer@gmail.com", department: "IT", role: "Backend Developer" },
+  { employeeId: "EMP011", fullName: "Siddharth Banerjee", email: "siddharth.banerjee@gmail.com", department: "IT", role: "Backend Developer" },
+  { employeeId: "EMP012", fullName: "Manish Agarwal", email: "manish.agarwal@gmail.com", department: "IT", role: "Database Administrator" },
+  { employeeId: "EMP013", fullName: "Ritika Kapoor", email: "ritika.kapoor@gmail.com", department: "IT", role: "Database Administrator" },
+  { employeeId: "EMP014", fullName: "Nikhil Deshpande", email: "nikhil.deshpande@gmail.com", department: "IT", role: "Cybersecurity Analyst" },
+  { employeeId: "EMP015", fullName: "Pooja Chatterjee", email: "pooja.chatterjee@gmail.com", department: "IT", role: "Cybersecurity Analyst" },
+  { employeeId: "EMP016", fullName: "Varun Khanna", email: "varun.khanna@gmail.com", department: "IT", role: "Software Developer" },
+  { employeeId: "EMP017", fullName: "Mehul Jain", email: "mehul.jain@gmail.com", department: "IT", role: "Software Developer" },
+  { employeeId: "EMP018", fullName: "Aishwarya Pillai", email: "aishwarya.pillai@gmail.com", department: "IT", role: "Software Developer" },
+  { employeeId: "EMP019", fullName: "Saurabh Mishra", email: "saurabh.mishra@gmail.com", department: "Operations", role: "Product Manager" },
+  { employeeId: "EMP020", fullName: "Kriti Bansal", email: "kriti.bansal@gmail.com", department: "Operations", role: "Project Coordinator" },
+  { employeeId: "EMP021", fullName: "Tanvi Kulkarni", email: "tanvi.kulkarni@gmail.com", department: "Marketing", role: "SEO Specialist" },
+  { employeeId: "EMP022", fullName: "Aman Grover", email: "aman.grover@gmail.com", department: "Marketing", role: "Social Media Manager" },
+  { employeeId: "EMP023", fullName: "Riya Malhotra", email: "riya.malhotra@gmail.com", department: "Marketing", role: "Content Creator" },
+  { employeeId: "EMP024", fullName: "Harsh Vardhan", email: "harsh.vardhan@gmail.com", department: "Marketing", role: "Content Creator" },
+  { employeeId: "EMP025", fullName: "Simran Kaur", email: "simran.kaur@gmail.com", department: "Marketing", role: "Public Relations Executive" },
+  { employeeId: "EMP026", fullName: "Rakesh Tiwari", email: "rakesh.tiwari@gmail.com", department: "Sales", role: "Sales Coordinator" },
+  { employeeId: "EMP027", fullName: "Pallavi Deshmukh", email: "pallavi.deshmukh@gmail.com", department: "Sales", role: "Business Development Executive" },
+  { employeeId: "EMP028", fullName: "Naveen Shetty", email: "naveen.shetty@gmail.com", department: "Sales", role: "Client Relationship Manager" },
+  { employeeId: "EMP029", fullName: "Arjun Singh", email: "arjun.singh@gmail.com", department: "Sales", role: "Sales Manager" }
+];
+
+module.exports = { employees };
